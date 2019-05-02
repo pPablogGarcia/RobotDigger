@@ -1,0 +1,36 @@
+{
+  "name": "robotdigger",
+  "version": "1.0.0",
+  "description": "Robô escavador(pesquisador), busca informações através do nome da empresa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "debug": "nodemon --inspect ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pPablogGarcia/RobotDigger.git"
+  },
+  "keywords": [
+    "Robot",
+    "Robô",
+    "Digger",
+    "Escavador",
+    "NODE",
+    "Express",
+    "ServiceNow"
+  ],
+  "author": "Pablo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pPablogGarcia/RobotDigger/issues"
+  },
+  "homepage": "https://github.com/pPablogGarcia/RobotDigger#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
